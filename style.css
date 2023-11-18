@@ -1,0 +1,37 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,400;1,500;1,600&display=swap');
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif,'Poppins', sans-serif;
+}
+
+/* Navigation */
+nav {
+  margin-top: 23px;
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+}
+
+.logo {
+  font-size: xx-large;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+li {
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
