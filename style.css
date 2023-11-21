@@ -13,7 +13,7 @@ body {
 
 /* Navigation */
 nav {
-  margin-top: 23px;
+  padding-top: 60px;
   display: flex;
   justify-content: space-around;
   font-size: x-large;
@@ -106,7 +106,6 @@ section {
   -webkit-user-select: none;
   touch-action: manipulation;
   width: auto;
-  will-change: transform,opacity;
   z-index: 0;
   margin-bottom: 20px;
 }
@@ -115,4 +114,25 @@ section {
   padding-left: 70px;
   cursor: pointer;
   width: 40px;
+}
+
+/* About */
+#get-to {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-image {
+  width: 400px;
+  border-radius: 10%;
+}
+
+#about-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#about-exper-educ {
+  flex-direction: row;
 }
